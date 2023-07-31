@@ -1,0 +1,86 @@
+@media (max-width:991px) {
+
+
+    .container {
+        width: 95%;
+    }
+
+    .about-content .count {
+        border: none !important;
+    }
+
+    .portfolio .nav-link {
+        margin-bottom: 15px;
+    }
+
+    .resume .col-md-6 {
+        margin-bottom: 25px;
+    }
+
+    .testimonials .item {
+        margin-bottom: 25px;
+    }
+   
+
+}
+
+@media screen and (max-width:768px) {
+    header {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        height: 80vh;
+        
+    }
+
+    .header-content h1,
+    h2 {
+        font-size: 35px;
+    }
+
+    .header-content h2 {
+        font-size: 30px;
+    }
+
+    .resume {
+        text-align: center;
+    }
+
+    .contact .container>p {
+        width: 100%;
+    }
+
+    .map .contact-info {
+        width: auto;
+    }
+
+    footer {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    footer p:last-of-type,
+    footer p.copy {
+        text-align: center !important;
+    }
+ 
+}
+
+
+@media screen and (max-width:575px){
+    header {
+        background: url(../img/waleed.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 900px;
+       
+    }
+.header-content .con {
+    margin-top: 100%;
+}
+.title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    width:112%;
+}
+
+}  

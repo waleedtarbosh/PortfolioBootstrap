@@ -1,6 +1,4 @@
 @media (max-width:991px) {
-
-
     .container {
         width: 95%;
     }
@@ -20,8 +18,6 @@
     .testimonials .item {
         margin-bottom: 25px;
     }
-   
-
 }
 
 @media screen and (max-width:768px) {
@@ -29,15 +25,14 @@
         background-position: 50%;
         background-repeat: no-repeat;
         height: 80vh;
-        
+        min-height: auto;
     }
 
-    .header-content h1,
-    h2 {
+    .header-content h1 {
         font-size: 35px;
     }
 
-    .header-content h2 {
+    .header-content h2, .title h2 {
         font-size: 30px;
     }
 
@@ -47,6 +42,10 @@
 
     .contact .container>p {
         width: 100%;
+    }
+
+    .contact form.w-75 {
+        width: 100% !important;
     }
 
     .map .contact-info {
@@ -62,25 +61,40 @@
     footer p.copy {
         text-align: center !important;
     }
- 
 }
 
-
-@media screen and (max-width:575px){
+@media screen and (max-width:575px) {
     header {
         background: url(../img/waleed.jpg) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
-        min-height: 900px;
-       
+        min-height: 100vh;
     }
-.header-content .con {
-    margin-top: 100%;
-}
-.title h2 {
-    font-size: 48px;
-    font-weight: 700;
-    width:112%;
-}
 
-}  
+    .header-content .con {
+        margin-top: 50vh;
+    }
+
+    .title h2 {
+        font-size: 35px;
+        width: 100%;
+    }
+    
+    .header-content p {
+        font-size: 16px;
+        width: auto;
+        white-space: normal;
+        animation: none;
+        border-right: none;
+        margin-left: 0;
+        text-align: right;
+    }
+    
+    .about .numbers span {
+        font-size: 20px;
+    }
+    
+    .discription {
+        padding: 30px 15px !important;
+    }
+}
